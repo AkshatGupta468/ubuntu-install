@@ -31,6 +31,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```
 sudo apt install neovim
 ```
+### npm and node
+```
+sudo apt install npm
+```
 
 ### Postman
 ```
