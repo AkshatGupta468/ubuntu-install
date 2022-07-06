@@ -1,4 +1,4 @@
-# ubuntu-_install
+# ubuntu-install
 My Script to install ubuntu
 
 ### Installing Git
