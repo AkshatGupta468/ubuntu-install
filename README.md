@@ -48,3 +48,10 @@ snap install postman
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.32.2_amd64.deb
 sudo dpkg -i mongodb-compass_1.32.2_amd64.deb
 ```
+ if libconfig-2-4 is absent use this command first
+```
+sudo apt-get install libgconf-2-4
+apt --fix-broken install
+
+```
+
