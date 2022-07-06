@@ -31,7 +31,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```
 sudo apt install neovim
 ```
-### npm and node
+### NPM and NodeJs using NVM
+Currently using : v16.15.1 (npm v8.11.0)
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install --lts
