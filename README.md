@@ -30,6 +30,21 @@ rm -f packages.microsoft.gpg
  and compiler path = "/usr/bin/g++" for code-analysis intellisense
  vCformat for codeformatting
 
+### Auto Mound D Drive
+```
+sudo vi /etc/fstab
+```
+add this entry to fstab file 
+\040 for space in pathname
+```
+UUID=3C401CB3401C75BC /media/gakshat468/New\040Volume        ntfs    defaults	  0       2
+```
+After this on next login the Drive will get auto mounted
+To mount during the current run use
+```
+sudo mount -a
+```
+
 ### Installing ZSH with oh-my-zsh
 ```
 sudo apt install zsh
