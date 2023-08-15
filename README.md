@@ -6,6 +6,11 @@ My Script to install ubuntu
 sudo apt-get install git   
 ```
 
+### Installing g++ and gcc
+```
+sudo apt install build-essential   
+```
+
 ### Installing Chrome
 ```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
